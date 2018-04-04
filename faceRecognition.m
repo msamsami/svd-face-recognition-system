@@ -8,8 +8,8 @@ I = im2double(I);
 figure, imshow (I);
 title ('First train picture of first folder');
 
-% Because the size of all picture are the same, we just use the size(I)
-% command once and do not repeat it for next steps.
+% Because the size of all of the images are the same, we just 
+% use the size(I) command once and do not repeat it for next steps.
 [r, c] = size(I);
 X = ['Matrix I has ', num2str(r), ' rows and ', num2str(c), ' columns.'];
 disp (X);
