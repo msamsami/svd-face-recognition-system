@@ -8,8 +8,8 @@ I = im2double(I);
 figure, imshow (I);
 title ('First train picture of first folder');
 
-% Because the size of all of the images are the same, we just 
-% use the size(I) command once and do not repeat it for next steps.
+% Because the size of all of the images are the same, we just use 
+% the size(I) once and do not repeat it for next steps.
 [r, c] = size(I);
 X = ['Matrix I has ', num2str(r), ' rows and ', num2str(c), ' columns.'];
 disp (X);
@@ -57,7 +57,7 @@ for i = 1:200
     Indexes(i, 1) = indMin;
 end
 
-% Now we should see how much wrong recognition do we have
+% Now we should see how much wrong recognition we have
 errors = 0;
 index = 5;
 
@@ -123,7 +123,7 @@ for i = 1:200
     Indexes(i, 1) = indMin;
 end
 
-% Now we should see how much wrong recognition do we have
+% Now we should see how much wrong recognition we have
 errors = 0;
 index = 5;
 for i = 1:200
