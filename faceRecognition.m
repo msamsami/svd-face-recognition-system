@@ -57,7 +57,7 @@ for i = 1:200
     Indexes(i, 1) = indMin;
 end
 
-% Now we should see how much wrong recognition we have
+% Now we should see how much wrong recognitions we have
 errors = 0;
 index = 5;
 
@@ -123,7 +123,7 @@ for i = 1:200
     Indexes(i, 1) = indMin;
 end
 
-% Now we should see how much wrong recognition we have
+% Now we should see how much wrong recognitions we have
 errors = 0;
 index = 5;
 for i = 1:200
